@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PitStop</string>
+    <string name="home_page">This is PitStop</string>
+    <string name="action_settings">Yep, it is</string>
+    <string name="edit_message">Votre message</string>
+     <string name="action_search">Chercher</string>
+    <string name="button_send">Envoyer</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">Le message</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
