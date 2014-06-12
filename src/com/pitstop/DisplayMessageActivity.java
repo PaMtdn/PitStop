@@ -1,6 +1,5 @@
 package com.pitstop;
 
-import android.R;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

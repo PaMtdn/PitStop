@@ -1,22 +1,18 @@
 package com.pitstop;
 
-import android.R;
 import android.app.AlertDialog;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 
 public class MainActivity extends ActionBarActivity {
-	public final static String EXTRA_MESSAGE = "com.example.pitstop.MESSAGE";
+	public final static String EXTRA_MESSAGE = "com.pitstop.MESSAGE";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -80,13 +76,7 @@ public class MainActivity extends ActionBarActivity {
 
 	/** Called when the user clicks the Send button */
 	public void sendMessage(View view) {
-		Intent intent = new Intent(this, DisplayMessageActivity.class);
-		EditText editText = (EditText) findViewById(R.id.edit_message);
-		String message = editText.getText().toString();
-		Log.i ("info", "Trololololo");
-		intent.putExtra(EXTRA_MESSAGE, message);
-		startActivity(intent);
-
+		
 	}
 
 }
